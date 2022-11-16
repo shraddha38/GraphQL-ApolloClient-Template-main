@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { CREATE_USER_MUTATION } from "../GraphQL/Mutations";
 import { useMutation } from "@apollo/client";
-
+import {CREATE_USER_MUTATION} from "../GraphQL/Mutations"
 function Form() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
