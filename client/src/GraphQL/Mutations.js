@@ -34,8 +34,8 @@ export const CREATE_MANAGER_MUTATION = gql`
     ) {
       id
     }
-  }
-`;
+  }`
+;
 
 
 //module.exports = { CREATE_USER_MUTATION, CREATE_MANAGER_MUTATION }
